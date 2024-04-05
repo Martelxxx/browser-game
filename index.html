@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number!</title>
+    <link rel = "stylesheet" type ="text/css" href = "css/style.css" >
+</head>
+<body>
+   <div class ="return-home">
+<button on click="window.location.href='index.html'">Fair Ground</button>    
+</div> 
+<h1>Guess The Number!</h1>
+<p> We have selected a random number between 1-100; see if you can guess it in 10 turns or less! We will let you know if your guess is too high or too low!</p>
+<div class ="inputs">
+    <label for="guess">Enter Your Guess: </label>
+<input type="text" id="guess" class="guess">
+<input type="submit" value="Submit Guess" class ="guessSubmit">
+</div>
+<div class ="results">
+<p class ="guesses"></p>
+<p class ="lastResult"></p>
+<p class ="lowOrHi"></p>
+</div>
+<script src = "js/app.js"></script>
+</body>
+</html>
